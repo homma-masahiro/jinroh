@@ -1,0 +1,10 @@
+api:
+  restart: always
+  build: .
+  dockerfile: Dockerfile_api
+  ports:
+    - 3000:3000
+  volumes:
+    - ./api:/api
+    - /api/node_modules
+  command: npm start
