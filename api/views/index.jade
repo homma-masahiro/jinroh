@@ -1,5 +1,10 @@
-extends layout
+h1 人狼
+form(method="POST", action="./night_action")
+  label id:
+  input(type="text", name="id" value="")
+  br
+  label target_id:
+  input(type="text", name="target_id" value="")
+  br
+  input(type="submit", value="送信")
 
-block content
-  h1= title
-  p Welcome to #{title}

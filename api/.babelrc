@@ -5,6 +5,7 @@
 
   "plugins": [
     "syntax-async-functions",
-    "transform-regenerator"
+    "transform-regenerator",
+    "transform-class-properties"
   ]
 }
